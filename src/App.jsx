@@ -4,7 +4,7 @@ import './App.css'
 import ActiveUsersChart from './components/ActiveUsersChart'
 import DailyTransfersChart from './components/DailyTransfersChart'
 import CirculatingSupplyChart from './components/CirculatingSupplyChart'
-import BalancesBoard from './components/BalancesBoard'
+import TopBalancesTable from './components/BalancesBoard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +15,7 @@ function App() {
       <ActiveUsersChart />
       <DailyTransfersChart />
       <CirculatingSupplyChart />
-      <BalancesBoard />
+      <TopBalancesTable />
     </div>
   )
 }
